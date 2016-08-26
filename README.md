@@ -6,29 +6,28 @@
 - [JPHACKS HackDay(10/28-29,11/5-6）](guidelines/hackdays.md)
 - [JPHACKS AwardDay（11/19）](guidelines/award.md)
 
-### ルール・審査(Coming Soon)
-- [開発テーマ]
-- [事前準備物]
-- [開発ルール]
-- [製品開発・提出方法]
-- [審査基準]
-- [審査方法]
+### ルール・審査
+- [開発テーマ](guidelines/theme.md)
+- [事前準備物](guidelines/tools.md)
+- [開発ルール](guidelines/rule.md)
+- [製品開発・提出方法](guidelines/how-to-submit.md)
+- [審査基準](guidelines/criteria.md)
+- [審査方法](guidelines/how-to-judge.md)
 
-### 賞品について(Coming Soon)
-- [Innovator認定・JPHACKS賞]
-- [各スポンサー賞]
+### 賞品について
+- [Innovator認定・JPHACKS賞](guidelines/prize.md)
+- [各スポンサー賞](guidelines/sponsor-prize.md)
 
-### API等各種提供物について(Coming Soon)
-- [スポンサー提供物一覧]
+### API等各種提供物について
+- [スポンサー提供物一覧](documents/offerlist.md)
 
-### その他（ドキュメント）
+### その他
 - [Git,GitHubの使い方](documents/how-to-use-git-github.md)
-- [JPHACKS参加の心得](documents/advice.md)
-- [HackDay用リファレンス](documents/reference.md)
+
 
 ### 規約
 - [参加規約](guidelines/terms.md)
-- [アンチハラスメントポリシー](guidelines/anti-harassment.md)
+- [アンチハラスメントポリシー](guidelines/anti-harassment.md) 
 
 #### アンチハラスメントポリシーに関して
 JPHACKSでは、**アンチハラスメントポリシー**を強く意識しております。年齢や性別、地域にかかわらず、沢山の参加者が、  
@@ -46,6 +45,7 @@ JPHACKSでは、**アンチハラスメントポリシー**を強く意識して
 |共催|東京大学大学院情報理工学系研究科,公立はこだて未来大学,北海道大学,東北大学,名城大学,神戸市,福岡県|
 |後援(予定)|総務省,経済産業省,IPA(Information-technology Promotion Agency, Japan:情報処理理推進機構)|
 |協力(予定)|IPA 未踏,総務省 異能 vation,国⽴情報学研究所 トップエスイー|
+|テクニカルパートナー|ギットハブ・ジャパン合同会社|
 |JPHACKS運営事務局| ㈶ 総合研究奨励会　JPHACKS研究会,株式会社ギブリー|
 
 ## 運営組織
