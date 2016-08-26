@@ -21,9 +21,10 @@
 ### API等各種提供物について(Coming Soon)
 - [スポンサー提供物一覧]
 
-### その他
+### その他（ドキュメント）
 - [Git,GitHubの使い方](documents/how-to-use-git-github.md)
-
+- [JPHACKS参加の心得](documents/advice.md)
+- [HackDay用リファレンス](documents/reference.md)
 
 ### 規約
 - [参加規約](guidelines/terms.md)
