@@ -6,7 +6,7 @@
 - [JPHACKS HackDay(10/28-29,11/5-6）](guidelines/hackdays.md)
 - [JPHACKS AwardDay（11/19）](guidelines/award.md)
 
-### ルール・審査(Comming Soon)
+### ルール・審査(Coming Soon)
 - [開発テーマ]
 - [事前準備物]
 - [開発ルール]
@@ -14,7 +14,7 @@
 - [審査基準]
 - [審査方法]
 
-### 賞品について(Comming Soon)
+### 賞品について(Coming Soon)
 - [Innovator認定・JPHACKS賞]
 - [各スポンサー賞]
 
