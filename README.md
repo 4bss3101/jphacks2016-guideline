@@ -30,6 +30,10 @@
 - [参加規約](guidelines/terms.md)
 - [アンチハラスメントポリシー](guidelines/anti-harassment.md)
 
+#### アンチハラスメントポリシーに関して
+JPHACKSでは、**アンチハラスメントポリシー**を強く意識しております。年齢や性別、地域にかかわらず、沢山の参加者が、  
+多様的な創造性と技術力を発揮し、**ものづくりを楽しむ**環境づくりを構築してまいります。
+
 ## HP
 - [JPHACKSの公式ホームページ](https://jphacks.com)
 - [Facebookページ](https://facebook.com/jphacks)
