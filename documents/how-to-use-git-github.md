@@ -17,6 +17,7 @@ Gitでは、ローカル環境にもコードの変更履歴をコミット(保�
 
 ### 最低限知っていて欲しいコマンド
 - git clone
+- git pull
 - git branch
 - git checkout
 - git add
