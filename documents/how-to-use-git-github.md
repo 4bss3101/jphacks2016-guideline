@@ -15,6 +15,15 @@ Gitでは、ローカル環境にもコードの変更履歴をコミット(保�
 -[Try Git!](https://try.github.io/levels/1/challenges/1)にアクセスして、Gitの使い方を練習してみましょう。(全文英語）
 - 基本的なGitコマンドを学習(add,commit,push,branch,checkout,diff等)を.gitのインストールをしなくても学ぶことが出来ます。
 
+### 最低限知っていて欲しいコマンド
+- git clone
+- git branch
+- git checkout
+- git add
+- git commit
+- git push
+
+
 ## 2,GitHub
 ### GitHubとは
 GitHubとは、上記のGitの仕組みを利用して、世界中の人々が自分の作品(プログラムコードやデザインデータなど)を保存、公開することができるサービスです。  
