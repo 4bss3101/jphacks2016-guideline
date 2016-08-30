@@ -1,7 +1,7 @@
 # Git,GitHubの使い方
 ## 1, Git
 ### Gitとは
-> git（ギット）は、プログラムのソースコードなどの変更履歴を記録・追跡するための分散型バージョン管理システムである。 Linuxカーネルのソースコード管理に用いるためにリーナス・トーバルズによって開発され、それ以降ほかの多くのプロジェクトで採用されている。  
+git（ギット）は、プログラムのソースコードなどの変更履歴を記録・追跡するための分散型バージョン管理システムである。 Linuxカーネルのソースコード管理に用いるためにリーナス・トーバルズによって開発され、それ以降ほかの多くのプロジェクトで採用されている。  
 
 [参照(Wikipedia)](https://ja.wikipedia.org/wiki/Git)
 
@@ -14,16 +14,6 @@ Gitでは、ローカル環境にもコードの変更履歴をコミット(保�
 ### Gitを使ってみよう
 -[Try Git!](https://try.github.io/levels/1/challenges/1)にアクセスして、Gitの使い方を練習してみましょう。(全文英語）
 - 基本的なGitコマンドを学習(add,commit,push,branch,checkout,diff等)を.gitのインストールをしなくても学ぶことが出来ます。
-
-### 最低限知っていて欲しいコマンド
-- git clone
-- git pull
-- git branch
-- git checkout
-- git add
-- git commit
-- git push
-
 
 ## 2,GitHub
 ### GitHubとは
