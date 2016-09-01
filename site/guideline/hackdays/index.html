@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>How to use git github - JPHACKS2016 documant</title>
+	<title>Hackdays - JPHACKS2016 documant</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -59,25 +59,25 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../advice/">Advice</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">How to use git github</a>
+    <a href="../../docs/advice/">Advice</a>
 </li>
 
                         
                             
 <li >
-    <a href="../reference/">Reference</a>
+    <a href="../../docs/how-to-use-git-github/">How to use git github</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../docs/reference/">Reference</a>
 </li>
 
                         
@@ -86,31 +86,31 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guideline <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../guideline/abstract/">Abstract</a>
+    <a href="../abstract/">Abstract</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../guideline/award/">Award</a>
+    <a href="../award/">Award</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Hackdays</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../guideline/hackdays/">Hackdays</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../guideline/schedule/">Schedule</a>
+    <a href="../schedule/">Schedule</a>
 </li>
 
                         
@@ -159,12 +159,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../advice/">
+                        <a rel="next" href="../award/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../reference/">
+                        <a rel="prev" href="../schedule/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -180,62 +180,111 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#gitgithub">Git,GitHubの使い方</a></li>
+        <li class="main active"><a href="#jphacks-hackday">JPHACKS HackDay</a></li>
         
-            <li><a href="#1-git">1, Git</a></li>
+            <li><a href="#hackdayaward15">参加者全員が集まるHackDay、Award選出15チームを決定</a></li>
         
-            <li><a href="#2github">2,GitHub</a></li>
+    
+        <li class="main "><a href="#_1">開催概要</a></li>
         
-            <li><a href="#_2">その他、参考になるサイトのご紹介</a></li>
+            <li><a href="#_2">第一日程</a></li>
+        
+            <li><a href="#_3">第二日程</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="gitgithub">Git,GitHubの使い方</h1>
-<h2 id="1-git">1, Git</h2>
-<h3 id="git">Gitとは</h3>
-<blockquote>
-<p>git（ギット）は、プログラムのソースコードなどの変更履歴を記録・追跡するための分散型バージョン管理システムである。 Linuxカーネルのソースコード管理に用いるためにリーナス・トーバルズによって開発され、それ以降ほかの多くのプロジェクトで採用されている。  </p>
-</blockquote>
-<p><a href="https://ja.wikipedia.org/wiki/Git">参照(Wikipedia)</a></p>
-<p>Gitの最大の特徴は、"分散型"という名前の通り、ローカル環境に全ての変更履歴を含む完全なリポジトリの"複製"を作成できるという事。
-これまでのバージョン管理システムでは、サーバー上にある１つのリポジトリを、利用者が共同で使わなければなりませんでした。<br />
-このため、利用者が増えると変更内容がコンフリクト(衝突)したり、整合性を維持することが非常に難しいものでした。 
-Gitでは、ローカル環境にもコードの変更履歴をコミット(保存)することができるので、リモートのサーバーに常に接続する必要がありません。<br />
-このため、ネットワークに接続していなくても作業を行うことができます。</p>
-<h3 id="git_1">Gitを使ってみよう</h3>
-<p>-<a href="https://try.github.io/levels/1/challenges/1">Try Git!</a>にアクセスして、Gitの使い方を練習してみましょう。(全文英語）
-- 基本的なGitコマンドを学習(add,commit,push,branch,checkout,diff等)を.gitのインストールをしなくても学ぶことが出来ます。</p>
-<h3 id="_1">最低限知っていて欲しいコマンド</h3>
-<ul>
-<li>git clone</li>
-<li>git pull</li>
-<li>git branch</li>
-<li>git checkout</li>
-<li>git add</li>
-<li>git commit</li>
-<li>git push</li>
-</ul>
-<h2 id="2github">2,GitHub</h2>
-<h3 id="github">GitHubとは</h3>
-<p>GitHubとは、上記のGitの仕組みを利用して、世界中の人々が自分の作品(プログラムコードやデザインデータなど)を保存、公開することができるサービスです。<br />
-このGitHubではGitで管理されたソース・コードをGitHub上に無料でホスティングすることが出来たり、issue（タスク）の管理やコメントなどをGitHub上で管理することが出来ます。<br />
-有料サービスを利用すると、指定したユーザーからしかアクセスができないプライベートなレポジトリを作ったりすることができます。<br />
-また、学生の皆さんはこのプライベートリポジトリの作成を無料で行うことが出来ます。</p>
-<h3 id="git-it-electrongithub">Git-it-electronを使って、GitHubの使い方を覚えよう</h3>
-<ul>
-<li><a href="https://github.com/jlord/git-it-electron/releases">git-it-electron</a>にアクセスして、対象のOSの最新バージョンをインストールしてください。</li>
-<li>インストールが完了したら、Zipを解凍し、アプリケーションを開いてみましょう。</li>
-<li>PCのセキュリティ設定から、インストールしたアプリケーションの利用設定をする必要がある場合があります</li>
-<li>こちらは日本語にも対応しており、Gitコマンドだけではなく、GitHubアカウントの作成やGitHubの使い方もフォローしています。</li>
-</ul>
-<h2 id="_2">その他、参考になるサイトのご紹介</h2>
-<ul>
-<li><a href="http://www.backlog.jp/git-guide/">サルでもわかるGit入門</a></li>
-<li><a href="https://osdn.jp/magazine/09/03/16/0831212">Gitを使いこなすための20のコマンド</a></li>
-</ul></div>
+<h2 id="jphacks-hackday">JPHACKS HackDay</h2>
+<h3 id="hackdayaward15">参加者全員が集まるHackDay、Award選出15チームを決定</h3>
+<p>参加者の皆様には、指定の会場にお越しいただき、各日程3会場同時に2日間の開発をおこないます。(<strong>HackDayの参加は必須です</strong>)<br />
+それぞれHackDay内でチームにてプロダクト開発をおこなっていただきます。2日目には、それぞれの会場にて作品提出・発表を実施。<br />
+HackDayにおける審査にて各会場1チーム（東京会場は2チーム）を選出いたします。<br />
+またHackDayではローカルスポンサー賞の授与・その後懇談会も用意しており、参加者の皆様とスポンサー企業の方々が交流を深めることが出来ます。</p>
+<h2 id="_1">開催概要</h2>
+<h3 id="_2">第一日程</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>JPHACKS HackDay Days1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>開催日程</td>
+<td>2016年10月28日(土)・10月29日(日)</td>
+</tr>
+<tr>
+<td>開催時間</td>
+<td>28日(土)09:00〜20:00<br>29日(日)09:00〜19:00</td>
+</tr>
+<tr>
+<td>タイムライン</td>
+<td>●2016年10月28日（土）<br>08:30-09:00　開場・受付<br>09:00-09:30　ガイダンス<br>09:00-20:00　開発<br><br>●2016年10月29日（日）<br>08:30-09:00　開場・受付<br>09:00-15:30　開発（15:30に開発終了アナウンス）<br>15:30-16:00　ピッチアナウンス、プロダクト提出確認<br>16:00-17:00　プロダクトDEMO（1チーム1分30秒）<br>17:00-17:15　終了、全体写真撮影<br>17:15-18:15　懇親会<br>18:15　　　　解散宣言<br></td>
+</tr>
+<tr>
+<td>開催場所</td>
+<td>東京会場：<a href="http://www.nii.ac.jp/about/access/">国立情報学研究所</a><br>東北会場：<a href="http://qsc.eng.tohoku.ac.jp/jp/map.html">東北大学・カタールサイエンスキャンパス</a><br>九州会場：<a href="http://frac.jp/about/">福岡県Ruby・コンテンツ産業振興センター</a></td>
+</tr>
+<tr>
+<td>参加者数</td>
+<td>東京会場：80名(25チーム)程度<br>各地方会場：50名(15チーム)程度</td>
+</tr>
+<tr>
+<td>参加資格</td>
+<td>・全国の大学生・大学院生・専門生・高専生の学生（学年不問）<br>・満18歳以上であること</td>
+</tr>
+<tr>
+<td>参加費用</td>
+<td>参加費無料　※各HackDay会場までの交通費及び宿泊費は自己負担</td>
+</tr>
+</tbody>
+</table>
+<h3 id="_3">第二日程</h3>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>JPHACKS HackDay Days2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>開催日程</td>
+<td>2016年11月5日(土)・11月6日(日)</td>
+</tr>
+<tr>
+<td>開催時間</td>
+<td>5日(土)09:00〜20:00<br>6日(日)09:00〜19:00</td>
+</tr>
+<tr>
+<td>タイムライン</td>
+<td>●2016年11月5日（土）<br>08:30-09:00　開場・受付<br>09:00-09:30　ガイダンス<br>09:00-20:00　開発<br><br>●2016年11月6日（日）<br>08:30-09:00　開場・受付<br>09:00-15:30　開発（15:30に開発終了アナウンス）<br>15:30-16:00　ピッチアナウンス、プロダクト提出確認<br>16:00-17:00　プロダクトDEMO（1チーム1分30秒）<br>17:00-17:15　終了、全体写真撮影<br>17:15-18:15　懇親会<br>18:15　　　　解散宣言<br></td>
+</tr>
+<tr>
+<td>開催場所</td>
+<td>北海道会場：<a href="https://www.fmi.hokudai.ac.jp/access">北海道大学フード&amp;メディカルイノベーション国際拠点</a><br>名古屋拠点：<a href="https://www.meijo-u.ac.jp/about/campus/dome/">名城大学 社会連携ゾーンshake</a><br>関西会場：<a href="http://www.spacealpha.jp/sannomiya/access.html">神戸市 スペースアルファ三宮</a></td>
+</tr>
+<tr>
+<td>参加者数</td>
+<td>各地方会場：50名(15チーム)程度</td>
+</tr>
+<tr>
+<td>参加資格</td>
+<td>・全国の大学生・大学院生・専門生・高専生の学生（学年不問）<br>・満18歳以上であること</td>
+</tr>
+<tr>
+<td>参加費用</td>
+<td>参加費無料　※各HackDay会場までの交通費及び宿泊費は自己負担</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>[<a href="../README.md">目次へ戻る</a>] [<a href="../award/">JPHACKS Awardへ</a>]</p>
+<hr />
+<p>JPHACKS運営事務局</p></div>
             
         </div>
 

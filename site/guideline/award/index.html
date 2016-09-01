@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>How to use git github - JPHACKS2016 documant</title>
+	<title>Award - JPHACKS2016 documant</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
@@ -59,25 +59,25 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Docs <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../advice/">Advice</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">How to use git github</a>
+    <a href="../../docs/advice/">Advice</a>
 </li>
 
                         
                             
 <li >
-    <a href="../reference/">Reference</a>
+    <a href="../../docs/how-to-use-git-github/">How to use git github</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../docs/reference/">Reference</a>
 </li>
 
                         
@@ -86,31 +86,31 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guideline <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../guideline/abstract/">Abstract</a>
+    <a href="../abstract/">Abstract</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">Award</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../guideline/award/">Award</a>
+    <a href="../hackdays/">Hackdays</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../guideline/hackdays/">Hackdays</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../guideline/schedule/">Schedule</a>
+    <a href="../schedule/">Schedule</a>
 </li>
 
                         
@@ -159,12 +159,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../advice/">
+                        <a rel="next" href="../abstract/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../reference/">
+                        <a rel="prev" href="../hackdays/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -180,62 +180,69 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#gitgithub">Git,GitHubの使い方</a></li>
+        <li class="main active"><a href="#jphacks-awawrdday">JPHACKS AwawrdDay</a></li>
         
-            <li><a href="#1-git">1, Git</a></li>
+            <li><a href="#innovator">選出チームよるピッチと展示によるInnovator認定、各賞の授与</a></li>
         
-            <li><a href="#2github">2,GitHub</a></li>
-        
-            <li><a href="#_2">その他、参考になるサイトのご紹介</a></li>
+    
+        <li class="main "><a href="#_1">開催概要</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="gitgithub">Git,GitHubの使い方</h1>
-<h2 id="1-git">1, Git</h2>
-<h3 id="git">Gitとは</h3>
-<blockquote>
-<p>git（ギット）は、プログラムのソースコードなどの変更履歴を記録・追跡するための分散型バージョン管理システムである。 Linuxカーネルのソースコード管理に用いるためにリーナス・トーバルズによって開発され、それ以降ほかの多くのプロジェクトで採用されている。  </p>
-</blockquote>
-<p><a href="https://ja.wikipedia.org/wiki/Git">参照(Wikipedia)</a></p>
-<p>Gitの最大の特徴は、"分散型"という名前の通り、ローカル環境に全ての変更履歴を含む完全なリポジトリの"複製"を作成できるという事。
-これまでのバージョン管理システムでは、サーバー上にある１つのリポジトリを、利用者が共同で使わなければなりませんでした。<br />
-このため、利用者が増えると変更内容がコンフリクト(衝突)したり、整合性を維持することが非常に難しいものでした。 
-Gitでは、ローカル環境にもコードの変更履歴をコミット(保存)することができるので、リモートのサーバーに常に接続する必要がありません。<br />
-このため、ネットワークに接続していなくても作業を行うことができます。</p>
-<h3 id="git_1">Gitを使ってみよう</h3>
-<p>-<a href="https://try.github.io/levels/1/challenges/1">Try Git!</a>にアクセスして、Gitの使い方を練習してみましょう。(全文英語）
-- 基本的なGitコマンドを学習(add,commit,push,branch,checkout,diff等)を.gitのインストールをしなくても学ぶことが出来ます。</p>
-<h3 id="_1">最低限知っていて欲しいコマンド</h3>
-<ul>
-<li>git clone</li>
-<li>git pull</li>
-<li>git branch</li>
-<li>git checkout</li>
-<li>git add</li>
-<li>git commit</li>
-<li>git push</li>
-</ul>
-<h2 id="2github">2,GitHub</h2>
-<h3 id="github">GitHubとは</h3>
-<p>GitHubとは、上記のGitの仕組みを利用して、世界中の人々が自分の作品(プログラムコードやデザインデータなど)を保存、公開することができるサービスです。<br />
-このGitHubではGitで管理されたソース・コードをGitHub上に無料でホスティングすることが出来たり、issue（タスク）の管理やコメントなどをGitHub上で管理することが出来ます。<br />
-有料サービスを利用すると、指定したユーザーからしかアクセスができないプライベートなレポジトリを作ったりすることができます。<br />
-また、学生の皆さんはこのプライベートリポジトリの作成を無料で行うことが出来ます。</p>
-<h3 id="git-it-electrongithub">Git-it-electronを使って、GitHubの使い方を覚えよう</h3>
-<ul>
-<li><a href="https://github.com/jlord/git-it-electron/releases">git-it-electron</a>にアクセスして、対象のOSの最新バージョンをインストールしてください。</li>
-<li>インストールが完了したら、Zipを解凍し、アプリケーションを開いてみましょう。</li>
-<li>PCのセキュリティ設定から、インストールしたアプリケーションの利用設定をする必要がある場合があります</li>
-<li>こちらは日本語にも対応しており、Gitコマンドだけではなく、GitHubアカウントの作成やGitHubの使い方もフォローしています。</li>
-</ul>
-<h2 id="_2">その他、参考になるサイトのご紹介</h2>
-<ul>
-<li><a href="http://www.backlog.jp/git-guide/">サルでもわかるGit入門</a></li>
-<li><a href="https://osdn.jp/magazine/09/03/16/0831212">Gitを使いこなすための20のコマンド</a></li>
-</ul></div>
+<h2 id="jphacks-awawrdday">JPHACKS AwawrdDay</h2>
+<h3 id="innovator">選出チームよるピッチと展示によるInnovator認定、各賞の授与</h3>
+<p>HackDayから選ばれた15チームが全体でのピッチ(8分)をおこなっていただきます。また、発表後は展示ブースを設け、作品の紹介を会場の皆さんの前で実施します。組織委員会・スポンサー・オーディエンスからの投票により、JPHACKS Innovator認定チームを発表。更には最も斬新な着想による(Idea)であったチームに送られるBest Idea賞、技術(Tech)に優れた作品に送られるBest Hakcer賞を授与いたします。また、参加チーム全チームを対象とした、スポンサー賞の発表をおこないます。<br />
+表彰後は、スポンサー、共催の方々、参加者全てが参加する懇談会を開催いたします。懇談を通じて、より多くの出会いや機会創出につなげることを目的としております。</p>
+<h2 id="_1">開催概要</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>JPHACKS AwardDay</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>開催日程</td>
+<td>2015年11月19日（土）</td>
+</tr>
+<tr>
+<td>開催時間</td>
+<td>12:00〜20:00(予定)</td>
+</tr>
+<tr>
+<td>開催場所</td>
+<td>会場：<a href="http://www.u-tokyo.ac.jp/campusmap/cam01_04_16_j.html">東京大学 武田先端知ビル 武田ホール</a></td>
+</tr>
+<tr>
+<td>参加人数</td>
+<td>・Award進出チーム15チーム<br>・その他ハッカソン参加学生,各賞受賞学生：100名程度(Award参加を希望する学生)</td>
+</tr>
+<tr>
+<td>参加資格</td>
+<td>・全国の大学生・大学院生・専門生・高専生の学生（学年不問）<br>・満18歳以上であること</td>
+</tr>
+<tr>
+<td>参加費用</td>
+<td>無料</td>
+</tr>
+<tr>
+<td>遠方支援</td>
+<td><strong>TBD</strong></td>
+</tr>
+<tr>
+<td>開催概要</td>
+<td>JPHACKS Aawrdは、HackDayの成果物発表の場として、作品発表・展示会を行うイベントです。<br>また、スポンサー企業や協力団体との交流の場を設ける事により、開発したプロダクトの今後や参加者のキャリアのマッチングやパートナー探しの場として、新しい出会いを創出します。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>[<a href="../README.md">目次へ戻る</a>]</p>
+<hr />
+<p>JPHACKS運営事務局</p></div>
             
         </div>
 
