@@ -61,7 +61,7 @@ JPHACKSでは、それぞれのHackDayの2日間のみならず、10月17日(月
 表彰後は、スポンサー、共催の方々、参加者全てが参加する懇談会を開催いたします。懇談を通じて、より多くの出会いや機会創出につなげることを目的としております。
 
 --------------
-[[目次へ戻る](../README.md)] [[JPHACKS HackDayへ](hackdays.md)]
+[[目次へ戻る](../index.md)] [[JPHACKS HackDayへ](hackdays.md)]
 
 ----
 JPHACKS運営事務局

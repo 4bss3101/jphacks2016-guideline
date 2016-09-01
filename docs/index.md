@@ -1,34 +1,12 @@
 # JPHACKS2016 参加者ガイドライン
-## 目次
-### 概要
-- [JPHACKS2016開催概要](guidelines/abstract.md)
-- [全体の流れ](guidelines/schedule.md)
-- [JPHACKS HackDay(10/28-29,11/5-6）](guidelines/hackdays.md)
-- [JPHACKS AwardDay（11/19）](guidelines/award.md)
+JPHACKS2016の参加者ガイドラインへようこそ！
+こちらではJPHACKS参加予定の皆様に配布している情報を更新していきます！
+皆様、今年のJPHACKSも是非一緒に楽しみましょう！！
 
-### ルール・審査(Coming Soon)
-- [開発テーマ]
-- [事前準備物]
-- [開発ルール]
-- [製品開発・提出方法]
-- [審査基準]
-- [審査方法]
-
-### 賞品について(Coming Soon)
-- [Innovator認定・JPHACKS賞]
-- [各スポンサー賞]
-
-### API等各種提供物について(Coming Soon)
-- [スポンサー提供物一覧]
-
-### その他
-- [Git,GitHubの使い方](documents/how-to-use-git-github.md)
-- [JPHACKS参加の心得](documents/advice.md)
-- [HackDay用リファレンス](documents/reference.md)
 
 ### 規約
 - [参加規約](guidelines/terms.md)
-- [アンチハラスメントポリシー](guidelines/anti-harassment.md) 
+- [アンチハラスメントポリシー](guidelines/anti-harassment.md)
 
 #### アンチハラスメントポリシーに関して
 JPHACKSでは、**アンチハラスメントポリシー**を強く意識しております。年齢や性別、地域にかかわらず、沢山の参加者が、  

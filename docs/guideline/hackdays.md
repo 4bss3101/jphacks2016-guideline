@@ -30,7 +30,7 @@ HackDayにおける審査にて各会場1チーム（東京会場は2チーム�
 
 
 --------------
-[[目次へ戻る](../README.md)] [[JPHACKS Awardへ](award.md)]
+[[目次へ戻る](../index.md)] [[JPHACKS Awardへ](award.md)]
 
 ----
 JPHACKS運営事務局
