@@ -3,7 +3,7 @@
 ### 概要
 - [JPHACKS2016開催概要](guidelines/abstract.md)
 - [全体の流れ](guidelines/schedule.md)
-- [JPHACKS HackDay(10/28-29,11/5-6）](guidelines/hackdays.md)
+- [JPHACKS HackDay(10/29-30,11/5-6）](guidelines/hackdays.md)
 - [JPHACKS AwardDay（11/19）](guidelines/award.md)
 
 ### ルール・審査(Coming Soon)
